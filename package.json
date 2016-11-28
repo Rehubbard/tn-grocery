@@ -21,6 +21,7 @@
     "vue": "vue/dist/vue"
   },
   "dependencies": {
+    "lodash": "^4.17.2",
     "material-design-icons": "^3.0.1",
     "moment": "^2.17.0",
     "page": "^1.7.1",

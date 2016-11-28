@@ -15,11 +15,13 @@
     </div>
 
     <div class="radio-buttons">
-      <label class='radio-label'>
-        <input type="radio" value="main" v-model="itemData.office">For main office
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+        <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" value='main' v-model="itemData.office">
+        <span class="mdl-checkbox__label">Main office</span>
       </label>
-      <label class='radio-label'>
-        <input type="radio" value="dev" v-model="itemData.office">For dev office
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+        <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input" value='dev' v-model="itemData.office">
+        <span class="mdl-checkbox__label">Dev office</span>
       </label>
     </div>
 
@@ -78,11 +80,6 @@ export default {
 .input {
   color: gray;
   width: 100%;
-}
-
-.radio-label {
-  color: gray;
-  margin-right: 50px;
 }
 
 .radio-buttons {
